@@ -3,5 +3,6 @@
     public interface ICountryRepository
     {
         CreateCountryResponse CreateCountry(CreateCountryRequest request);
+        List<Country> GetAll();
     }
 }

@@ -6,5 +6,10 @@
         {
             throw new NotImplementedException();
         }
+
+        public List<Country> GetAll()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
